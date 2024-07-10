@@ -13,8 +13,8 @@ spam_image_path = 'Spam.png'  # Replace with your actual PNG image file path for
 st.title("Predicting Email Spam or Ham")
 
 
-model = pickle.load(open(r"C:\\Users\\gorla\\streamlit\\model.pkl",'rb'))
-bow = pickle.load(open(r"C:\Users\gorla\streamlit\bow.pkl",'rb'))
+model = pickle.load(open("model.pkl",'rb'))
+bow = pickle.load(open("bow.pkl",'rb'))
 
 
 email = st.text_input("Enter the email:")
