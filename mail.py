@@ -8,7 +8,7 @@ image_path = 'Innomatics-logo.png'  # Replace with your actual PNG image file pa
 
 # Display the PNG image
 st.image(image_path)
-spam_image_path = r"C:\Users\gorla\OneDrive\Desktop\Spam.png"  # Replace with your actual PNG image file path for spam
+spam_image_path = 'Spam.png'  # Replace with your actual PNG image file path for spam
 st.title("Predicting Email Spam or Ham")
 
 
